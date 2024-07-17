@@ -314,8 +314,8 @@ def get_barchart_downloads(
     inv_contract_map = _build_inverse_map(contract_map)
 
     max_exceeded = False
-    ##print(inv_contract_map)
-    ##return
+    print(inv_contract_map)
+    return
 
     try:
         if contract_list is None:
@@ -351,7 +351,7 @@ def get_barchart_downloads(
                 #I would try to download up to 400 data points in general per contract, with significant more data points for a selected number of assets 
                 #For certain fixed income instruments, e.g. SOFR or EuroDollar, the liquid futures may have an expiry 4 or 5 years out
                 #So I will try to capture some more contracts by modifying the code below 
-                if _before_available_res(resolution, end_date, instr_config): #Min Tang: changed start_date to end_date
+                if _before_available_res(resolution, start_date, instr_config):
                     date_type = "tick" if resolution == Resolution.Hour else "EOD"
                     logger.info(
                         f"{resolution.adj} prices for {contract} starting "
@@ -911,7 +911,7 @@ if __name__ == "__main__":
         },
         save_dir="/home/user/barchart_data",
         start_year=2020,
-        end_year=2020,
+        end_year=2022,
         dry_run=False,
     )
 

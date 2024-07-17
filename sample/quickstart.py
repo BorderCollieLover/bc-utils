@@ -11,8 +11,8 @@ CONTRACTS = {
 
 session = create_bc_session(
     config_obj=dict(
-        barchart_username="user@domain.com",
-        barchart_password="s3cr3t_321",
+        barchart_username="min.tang@gmail.com",
+        barchart_password="cdefgh12",
     )
 )
 

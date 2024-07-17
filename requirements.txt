@@ -1,0 +1,6 @@
+pytz
+pandas
+requests
+beautifulsoup4
+pyyaml
+setuptools

@@ -38,3 +38,14 @@ inc/
 /.env
 /.venv
 /data
+
+#others
+/.dist/
+*.yaml
+/*.egg-info/
+bcutils/_pycache
+build/
+dist/
+
+*.egg-info/
+

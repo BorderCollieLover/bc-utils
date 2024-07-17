@@ -7,16 +7,33 @@ from bcutils.bc_utils import (
     update_barchart_downloads,
 )
 
+from bcutils.config import CONTRACT_MAP, EXCHANGES
+
 logging.basicConfig(level=logging.INFO)
+
+def find_instruments_with_days_count():
+    return_instrs = {}
+    for instr in CONTRACT_MAP.keys():
+        instr_config = CONTRACT_MAP[instr]
+        if "days_count" in instr_config:
+            #return_instrs += {instr: instr_config["days_count"]}
+            return_instrs[instr]=instr_config["days_count"]
+
+    return(return_instrs)        
 
 
 def download_with_config():
     # run a download session, with config picked up from the passed file
-    # See /sample/private_config_sample.yaml
+    # See private_config_sample.yaml
     config = load_config("./private_config.yaml")
+    long_life_instruments = list(find_instruments_with_days_count().keys())
+    instr_list=config["barchart_download_list"]
+    print(long_life_instruments)
+    print(instr_list)
+    #return
     get_barchart_downloads(
         create_bc_session(config),
-        instr_list=config["barchart_download_list"],
+        instr_list=long_life_instruments, #config["barchart_download_list"],
         start_year=config["barchart_start_year"],
         end_year=config["barchart_end_year"],
         save_dir=config["barchart_path"],
@@ -27,7 +44,7 @@ def download_with_config():
 
 def update_with_config():
     # run an update session, with config picked up from the passed file
-    # See /sample/private_config_sample.yaml
+    # See private_config_sample.yaml
     config = load_config("./private_config.yaml")
     instr_list = config["barchart_update_list"]
     save_dir = config["barchart_path"]
@@ -42,5 +59,6 @@ def load_config(config_path):
 
 
 if __name__ == "__main__":
+    
     download_with_config()
     # update_with_config()
