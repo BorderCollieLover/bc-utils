@@ -22,18 +22,19 @@ def find_instruments_with_days_count():
     return(return_instrs)        
 
 
-def download_with_config():
+def download_with_config(configfile):
     # run a download session, with config picked up from the passed file
     # See private_config_sample.yaml
-    config = load_config("./private_config.yaml")
-    long_life_instruments = list(find_instruments_with_days_count().keys())
-    instr_list=config["barchart_download_list"]
-    print(long_life_instruments)
-    print(instr_list)
+    config = load_config(configfile)
+    #long_life_instruments = list(find_instruments_with_days_count().keys())
+    #instr_list=config["barchart_download_list"]
+    #print(long_life_instruments)
+    #print(instr_list)
+    instruments = list(CONTRACT_MAP.keys())
     #return
     get_barchart_downloads(
         create_bc_session(config),
-        instr_list=long_life_instruments, #config["barchart_download_list"],
+        instr_list=instruments, #config["barchart_download_list"],
         start_year=config["barchart_start_year"],
         end_year=config["barchart_end_year"],
         save_dir=config["barchart_path"],
@@ -60,5 +61,8 @@ def load_config(config_path):
 
 if __name__ == "__main__":
     
-    download_with_config()
+    download_with_config("./private_config.yaml")
+    download_with_config("./private_config2.yaml")
+    download_with_config("./private_config3.yaml")
+    download_with_config("./private_config4.yaml")
     # update_with_config()
