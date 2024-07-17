@@ -43,9 +43,10 @@ inc/
 /.dist/
 *.yaml
 /*.egg-info/
-bcutils/_pycache
+bcutils/_pycache/
 build/
 dist/
 
 *.egg-info/
+*.pyc
 
