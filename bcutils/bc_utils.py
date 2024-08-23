@@ -14,12 +14,15 @@ from datetime import datetime, timedelta
 from itertools import cycle
 from pathlib import Path
 from random import randint
+import pickle
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from bcutils.config import CONTRACT_MAP, EXCHANGES
+from bcutils.config import CONTRACT_MAP, EXCHANGES, CONTRACT_MAP2
+
+NEXT_TICKER_FILE='nextticker.pickle'
 
 logger = logging.getLogger(__name__)
 
@@ -308,6 +311,8 @@ def get_barchart_downloads(
         do_daily: if True, download daily as well as hourly price files
         pause_between_downloads: if True, wait a random short period between downloads
     """
+
+    
     if contract_map is None:
         contract_map = CONTRACT_MAP
 
@@ -317,11 +322,39 @@ def get_barchart_downloads(
     ##print(inv_contract_map)
     ##return
 
+    
+
+    
     try:
         if contract_list is None:
             contract_list = _build_contract_list(
                 start_year, end_year, instr_list=instr_list, contract_map=contract_map
             )
+
+        ### Min Tang 2024.08.09 Part 1 of 2 
+        ### See if the next ticker is dumped on hard drive. If so, load the ticker and start from there
+        print('contract list lenght: ',  len(contract_list))
+        try:
+            with open(NEXT_TICKER_FILE, 'rb') as fp: 
+                next_ticker = pickle.load(fp)
+        except Exception as e: 
+            print(e)
+            next_ticker = None
+
+        print('load start ticker from pickle: ', next_ticker)
+        ticker_pos = -1
+        if next_ticker: 
+            try:
+                ticker_pos = contract_list.index(next_ticker)
+                
+            except Exception as e: 
+                print(e)
+                
+            if ticker_pos>0:
+                contract_list = contract_list[ticker_pos:]
+
+        print('contract list length from pickled starting point: ' , len(contract_list))
+        ### End of Min Tang 2024.08.09 Part 1 of 2 
 
         for contract in contract_list:
             if max_exceeded:
@@ -346,11 +379,7 @@ def get_barchart_downloads(
 
                 #Min Tang 20240716
                 #The original code checks the starting date of a contract and compare it to when data becomes available for the particular contract
-                #The code will skip the contract if the starting date falls beyond the data availability time
-                #For most contract this script downloads data upto 120 days before departure so it wasn't too big a loss
-                #I would try to download up to 400 data points in general per contract, with significant more data points for a selected number of assets 
-                #For certain fixed income instruments, e.g. SOFR or EuroDollar, the liquid futures may have an expiry 4 or 5 years out
-                #So I will try to capture some more contracts by modifying the code below 
+                #I change it to use the end_date for checking
                 if _before_available_res(resolution, end_date, instr_config): #Min Tang: changed start_date to end_date
                     date_type = "tick" if resolution == Resolution.Hour else "EOD"
                     logger.info(
@@ -359,33 +388,6 @@ def get_barchart_downloads(
                         f"{date_type} date - skipping\n"
                     )
                     continue
-                
-                """ #First, just in case, if the contract expires before the data becomes available for the exchange, then skip
-                #Otherwise, if the start_date is before available dates, set the start_date to the available date
-                if _before_available_res(resolution, end_date, instr_config):
-                    date_type = "tick" if resolution == Resolution.Hour else "EOD"
-                    logger.info(
-                        f"{resolution.adj} prices for {contract} ending "
-                        f"{end_date.strftime('%Y-%m-%d')} is before configured "
-                        f"{date_type} date - skipping\n"
-                    )
-                    continue
-                else:
-                    if _before_available_res(resolution, start_date, instr_config):
-                        date_type = "tick" if resolution == Resolution.Hour else "EOD"
-                        logger.info(
-                            f"{resolution.adj} prices for {contract} starting "
-                            f"{start_date.strftime('%Y-%m-%d')} is before configured "
-                            f"{date_type} date - skipping\n"
-                        )
-                        exch = instr_config["exchange"]
-                        exch_config = EXCHANGES[exch]
-                        #tick_date = datetime.strptime(exch_config["tick_date"], "%Y-%m-%d")
-                        #eod_date = datetime.strptime(exch_config["eod_date"], "%Y-%m-%d")
-                        if (date_type == "tick"):
-                            start_date = datetime.strptime(exch_config["tick_date"], "%Y-%m-%d")
-                        else:
-                            start_date = datetime.strptime(exch_config["eod_date"], "%Y-%m-%d")
                 #End of Min Tang 20240716 """
 
 
@@ -404,15 +406,22 @@ def get_barchart_downloads(
                     HistoricalDataResult.NONE,
                     HistoricalDataResult.INSUFFICIENT,
                 ]:
+                    
                     continue
                 elif result == HistoricalDataResult.EXCEED:
                     logger.info("Max daily download reached, aborting")
                     max_exceeded = True
+
+                    ### Min Tang 2024.08.09 Part 2 of 2 
+                    print('about to write to pickle ', contract)
+                    with open(NEXT_TICKER_FILE, 'wb') as fp:
+                        pickle.dump(contract, fp)
                     break
+                    ### End of : Min Tang 2024.08.09 Part 2 of 2 
                 else:
                     if pause_between_downloads:
                         # cursory attempt to not appear like a bot
-                        time.sleep(0 if dry_run else randint(7, 15))
+                        time.sleep(0 if dry_run else randint(1, 5))
 
         # logout
         resp = session.get(BARCHART_URL + "logout", timeout=10)
@@ -653,6 +662,16 @@ def _build_contract_list(start_year, end_year, instr_list=None, contract_map=Non
         instrument_list = []
 
         for year in range(start_year, end_year):
+
+            #Min Tang: 2024.07.23
+            #If downloading historical contracts, then try to download for "small" months as well 
+            if (year > datetime.now().year):
+                rollcycle = config_obj["cycle"]
+            else:
+                rollcycle = "FGHJKMNQUVXZ"
+            rollcycle = "FGHJKMNQUVXZ"
+            #end Min Tang 2024.07.23
+
             for month_code in list(rollcycle):
                 instrument_list.append(
                     f"{futures_code}{month_code}{str(year)[len(str(year))-2:]}"
@@ -674,20 +693,34 @@ def _build_contract_list(start_year, end_year, instr_list=None, contract_map=Non
         instr_list = contracts_per_instrument[instr]
         config_obj = contract_map[instr]
         rollcycle = config_obj["cycle"]
-        if len(rollcycle) > 10:
+        #Min Tang 2024.07.24  
+        #This code below tries to sample contracts in a relatively balanced round-robin fashion
+        #But it doesn't work as well with my modification above as it based on the default contract cycle 
+        #This creates a problem when downloading historical data as certain contracts are processed at a much slower pace 
+        # resulting in the entire code spending a lot of time re-checking downloaded contracts 
+        #So I replace the calculation of max_count, originally based on rollcycle, to the length of the instrument contract list for each instrument,
+        # using average contract list length as a yard stick 
+
+
+        """ if len(rollcycle) > 10:
             max_count = 3
         elif len(rollcycle) > 7:
             max_count = 2
         else:
+            max_count = 1 """
+        
+        average_list_length = int((count-len(contract_list))/len(CONTRACT_MAP.keys()))
+        if (len(instr_list) > average_list_length):
+            max_count = 3  
+        else: 
             max_count = 1
+        #end of Min Tang 2024.07.24 
 
         for _ in range(0, max_count):
             if len(instr_list) > 0:
                 contract_list.append(instr_list.pop())
 
-    # return ['CTH21', 'CTK21', 'CTN21', 'CTU21', 'CTZ21', 'CTH22']
-
-    logger.info(f"Contract list: {contract_list}")
+    #logger.info(f"Contract list: {contract_list}")
     return contract_list
 
 

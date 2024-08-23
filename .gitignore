@@ -50,3 +50,5 @@ dist/
 *.egg-info/
 *.pyc
 
+nextticker.pickle
+*.pickle

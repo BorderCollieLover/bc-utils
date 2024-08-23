@@ -1,5 +1,7 @@
 import logging
 from yaml import load, FullLoader
+from time import sleep
+from random import randint
 
 from bcutils.bc_utils import (
     create_bc_session,
@@ -7,7 +9,7 @@ from bcutils.bc_utils import (
     update_barchart_downloads,
 )
 
-from bcutils.config import CONTRACT_MAP, EXCHANGES
+from bcutils.config import CONTRACT_MAP, EXCHANGES, CONTRACT_MAP2
 
 logging.basicConfig(level=logging.INFO)
 
@@ -26,12 +28,9 @@ def download_with_config(configfile):
     # run a download session, with config picked up from the passed file
     # See private_config_sample.yaml
     config = load_config(configfile)
-    #long_life_instruments = list(find_instruments_with_days_count().keys())
-    #instr_list=config["barchart_download_list"]
-    #print(long_life_instruments)
-    #print(instr_list)
-    instruments = list(CONTRACT_MAP.keys())
-    #return
+    instruments = list(CONTRACT_MAP.keys()).sort()
+    #instruments = ["SP500", "US30Y", "GOLD", "SOYBEAN","CRUDE_W","JPY"]
+
     get_barchart_downloads(
         create_bc_session(config),
         instr_list=instruments, #config["barchart_download_list"],
@@ -62,7 +61,31 @@ def load_config(config_path):
 if __name__ == "__main__":
     
     download_with_config("./private_config.yaml")
-    download_with_config("./private_config2.yaml")
-    download_with_config("./private_config3.yaml")
-    download_with_config("./private_config4.yaml")
+    sleep(randint(0,20))
+    
+    #download_with_config("./private_config2.yaml") cancelled
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config3.yaml") cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config4.yaml") # cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config5.yaml") # cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config6.yaml") # cancelled
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config7.yaml") # cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config8.yaml") # cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config9.yaml") #cancelled 
+    sleep(randint(0,20))
+
+    #download_with_config("./private_config10.yaml") #cancelled 
     # update_with_config()
