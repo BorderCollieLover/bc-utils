@@ -1,7 +1,7 @@
 CONTRACT_MAP = {
     "AEX": {"code": "AE", "cycle": "FGHJKMNQUVXZ", "exchange": "EuronextInd"},
     "ALUMINIUM": {"code": "AL", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"},
-    "ASX": {"code": "AP", "cycle": "HMUZ", "exchange": "SFE"},
+    #"ASX": {"code": "AP", "cycle": "HMUZ", "exchange": "SFE"}, #same as SPI 200
     "AUD": {"code": "A6", "cycle": "HMUZ", "exchange": "CME"},
     "AUDJPY": {"code": "UK", "cycle": "HMUZ", "exchange": "CME"},
     "BB3M": {"code": "BR", "cycle": "HMUZ", "exchange": "CME"},
@@ -56,7 +56,7 @@ CONTRACT_MAP = {
     "ETHANOL": {"code": "ZK", "cycle": "FGHJKMNQUVXZ", "exchange": "CBOT"},
     "ETHANOL-CHICAGO": {"code": "FL", "cycle": "FGHJKMNQUVXZ", "exchange": "NYMEX"},
     "ETHEREUM": {"code": "ER", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
-    "ETHER-MICRO": {"code": "ER", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "ETHER-MICRO": {"code": "TA", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"}, #changed it from ER to TA
     "EUA": {
         "code": "CK",
         "cycle": "FGHJKMNQUVXZ",
@@ -81,10 +81,10 @@ CONTRACT_MAP = {
     "EUROSTX200-LARGE": {"code": "PO", "cycle": "HMUZ", "days_count": 500,"exchange": "EUREX"},
     "EURO600": {"code": "FY", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-AUTO": {"code": "S5", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"},
+    #"EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"}, # same as EU-DJ-Basic
     "EU-BANKS": {"code": "FA", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-CHEM": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-CONSTRUCTION": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
+    #"EU-CONSTRUCTION": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"}, #seems a typo 
     "EU-DIV50": {"code": "DO", "cycle": "MZ", "exchange": "EUREX"},
     "EU-DIV30": {"code": "AQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-OIL": {"code": "D9", "cycle": "HMUZ", "exchange": "EUREX"},
@@ -96,7 +96,7 @@ CONTRACT_MAP = {
     "EU-MID": {"code": "PG", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-REALESTATE": {"code": "M4", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-OIL": {"code": "UH", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
+    #"EU-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"}, # same as EU-DJ-TECH
     "EU-TRAVEL": {"code": "J3", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-UTILS": {"code": "J4", "cycle": "HMUZ", "exchange": "EUREX"},
     "FED": {
@@ -109,7 +109,7 @@ CONTRACT_MAP = {
     "FTSE100": {"code": "X", "cycle": "HMUZ", "exchange": "ICE"},
     "FTSE250": {"code": "Y", "cycle": "HMUZ", "exchange": "ICE"},
     "FTSECHINAA": {"code": "HN", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
-    "FTSECHINAH": {"code": "HA", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"},
+    #"FTSECHINAH": {"code": "HA", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #This should be the HSCEI 
     "FTSETAIWAN": {"code": "T1", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "GAS-LAST": {"code": "HH", "cycle": "FGHJKMNQUVXZ", "exchange": "NYMEX"},
     "GAS_NL": {"code": "TG", "cycle": "FGHJKMNQUVXZ", "exchange": "ENDEX"},
@@ -121,7 +121,7 @@ CONTRACT_MAP = {
     "GAS-PEN": {"code": "HP", "cycle": "FGHJKMNQUVXZ", "exchange": "NYMEX"},
     "GBP": {"code": "B6", "cycle": "HMUZ", "exchange": "CME"},
     "GBPCHF": {"code": "SS", "cycle": "HMUZ", "exchange": "ICE/US"},
-    "GBPEUR": {"code": "RP", "cycle": "HMUZ", "exchange": "CME"},
+    #"GBPEUR": {"code": "RP", "cycle": "HMUZ", "exchange": "CME"}, # same as EURGBP
     "GBPJPY": {"code": "UR", "cycle": "HMUZ", "exchange": "CME"},
     "GICS": {"code": "GD", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "GILT": {"code": "G", "cycle": "HMUZ", "exchange": "ICE"},
@@ -135,7 +135,7 @@ CONTRACT_MAP = {
     "IRON": {"code": "C0", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "INR": {"code": "U-", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "IRS": {"code": "WY", "cycle": "HMUZ", "exchange": "CME"},
-    "JGB": {"code": "JX", "cycle": "HMUZ", "exchange": "SGX"},
+    #"JGB": {"code": "JX", "cycle": "HMUZ", "exchange": "SGX"}, #should be mini for this code 
     "JGB-SGX-mini": {"code": "JX", "cycle": "HMUZ", "exchange": "SGX"},
     "JPY": {"code": "J6", "cycle": "HMUZ", "exchange": "CME"},
     "JP-REALESTATE": {"code": "V.", "cycle": "HMUZ", "exchange": "JPX"},
@@ -251,7 +251,7 @@ CONTRACT_MAP = {
 
     #new instruments, added Min Tang, 2024.07.20
     'SPI200': {'code': 'AP', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'COCOA': {'code': 'CC', 'exchange': 'ICE/US', "days_count": 600,'cycle': 'FGHJKMNQUVXZ'}, 
+    #'COCOA': {'code': 'CC', 'exchange': 'ICE/US', "days_count": 600,'cycle': 'FGHJKMNQUVXZ'}, #same as COCOA-NY
     'CAD2': {'code': 'CH', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CRUDE_W_micro': {'code': 'CY', 'exchange': 'NYMEX', "days_count": 500,'cycle': 'FGHJKMNQUVXZ'}, 
     'CHINAA-CON': {'code': 'D1', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
@@ -269,7 +269,7 @@ CONTRACT_MAP = {
     'HANG_mini': {'code': 'HK', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'HANGENT_mini': {'code': 'IX', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'JPY_mini': {'code': 'J7', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'MSCIEMASIA': {'code': 'L5', 'exchange': 'ICE/US', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'MSCIEMASIA': {'code': 'L5', 'exchange': 'ICE/US', 'cycle': 'FGHJKMNQUVXZ'}, # same as MSCIASIA
     'HEATOIL-ICE': {'code': 'LO', 'exchange': 'ICE/EU', 'cycle': 'FGHJKMNQUVXZ'}, 
     'COAL-GEORDIE': {'code': 'LQ', 'exchange': 'ICE/EU', 'cycle': 'FGHJKMNQUVXZ'}, 
     'COAL': {'code': 'LU', 'exchange': 'ICE/EU', 'cycle': 'FGHJKMNQUVXZ'}, 
@@ -281,36 +281,36 @@ CONTRACT_MAP = {
     'COPPER-mini': {'code': 'QC', 'exchange': 'COMEX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CRUDE_W_mini': {'code': 'QM', 'exchange': 'NYMEX', "days_count": 500,'cycle': 'FGHJKMNQUVXZ'}, 
     'GOLD-mini': {'code': 'QO', 'exchange': 'COMEX', "days_count": 800,'cycle': 'FGHJKMNQUVXZ'}, 
-    'RUSSELL_mini': {'code': 'QR', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'SGD': {'code': 'R$', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'RUSSELL_mini': {'code': 'QR', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, #same as RUSSELL, the code is for a mini contract but similar to NASDAQ, PST used more mini by default 
+    #'SGD': {'code': 'R$', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, #same as SGD-mini
     'SUGAR16': {'code': 'SD', 'exchange': 'ICE/US', "days_count": 700,'cycle': 'FGHJKMNQUVXZ'}, 
-    'SUGAR_WHITE': {'code': 'SW', 'exchange': 'ICE/EU', "days_count": 700,'cycle': 'FGHJKMNQUVXZ'}, 
+    #'SUGAR_WHITE': {'code': 'SW', 'exchange': 'ICE/EU', "days_count": 700,'cycle': 'FGHJKMNQUVXZ'},  # same as SUGAR
     'VIX_mini': {'code': 'VJ', 'exchange': 'CFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CRUDE_ICE': {'code': 'WI', 'exchange': 'ICE/EU', "days_count": 500, 'cycle': 'FGHJKMNQUVXZ'}, 
     'CAD_micro': {'code': 'WK', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CHF_micro': {'code': 'WN', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CORN_mini': {'code': 'XN', 'exchange': 'CBOT', "days_count": 700, 'cycle': 'FGHJKMNQUVXZ'}, 
     'WHEAT_mini': {'code': 'XW', 'exchange': 'CBOT', "days_count": 500,'cycle': 'FGHJKMNQUVXZ'}, 
-    'DOW_mini': {'code': 'YM', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'},
+    #'DOW_mini': {'code': 'YM', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'}, #same as DOW, similar to 
     #end of new instruments min tang 2024.07.20
 
     #new instruments, added Min Tang, 2024.07.23
     'AUSCASH': {'code': 'IQ', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'CNH-CME': {'code': 'H5', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'CNH-CME': {'code': 'H5', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'},  #same as USDCNH-CME
     'CORN-EURO': {'code': 'XB', 'exchange': 'Euronext', 'cycle': 'FGHJKMNQUVXZ'}, 
     'CORRA': {'code': 'RG', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'EU-BANKS2': {'code': 'FA', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'EU-DIV30-DVP': {'code': 'AQ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'EU-DJ-AUTO': {'code': 'S5', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'EU-BANKS2': {'code': 'FA', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, #same as EU-BANKS
+    #'EU-DIV30-DVP': {'code': 'AQ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, # same as EU-DIV30
+    #'EU-DJ-AUTO': {'code': 'S5', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'},  # same as EU-AUTO
     'EU-DJ-BASIC': {'code': 'UJ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'FTSE100-DIV': {'code': 'IB', 'exchange': 'ICE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'HSCEI-DIV': {'code': 'E$', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'INR-SGX': {'code': 'U-', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'KRW': {'code': 'K9', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'INR-SGX': {'code': 'U-', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, # same as INR
+    #'KRW': {'code': 'K9', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'},  # same as KRWUSD
     'MSCIBRAZIL': {'code': 'F5', 'exchange': 'ICE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'MSCIEM-LIFFE': {'code': 'DE', 'exchange': 'ICE/US', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'NASDAQ_mini': {'code': 'NQ', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'NIKKEI-CME': {'code': 'NY', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'NASDAQ_mini': {'code': 'NQ', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, #Same as NASDAQ, seems PST uses mini for NASDAQ by default  
+    #'NIKKEI-CME': {'code': 'NY', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'},  #same as NIKKEI
     'NIKKEI-JPY': {'code': 'NL', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
     'NIKKEI-SGX': {'code': 'NX', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'NIKKEI-SGX-DIV': {'code': 'HT', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
@@ -321,8 +321,8 @@ CONTRACT_MAP = {
     'TSE60': {'code': 'TP', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'UMBS-50': {'code': 'BUT', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'}, 
     'US10Y_micro': {'code': 'TO', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'USDCAD_micro': {'code': 'WK', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
-    'USDCHF_micro': {'code': 'WN', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'USDCAD_micro': {'code': 'WK', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, # same as CAD micro
+    #'USDCHF_micro': {'code': 'WN', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, # same as CHF-micro
     'USDCNH-CME': {'code': 'H5', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
     'USDCNH-HK': {'code': 'KX', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'USDCNH-SGX_mini': {'code': 'I$', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'},
