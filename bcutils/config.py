@@ -81,14 +81,14 @@ CONTRACT_MAP = {
     "EUROSTX200-LARGE": {"code": "PO", "cycle": "HMUZ", "days_count": 500,"exchange": "EUREX"},
     "EURO600": {"code": "FY", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-AUTO": {"code": "S5", "cycle": "HMUZ", "exchange": "EUREX"},
-    #"EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"}, # same as EU-DJ-Basic
+    "EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"}, # same as EU-DJ-Basic
     "EU-BANKS": {"code": "FA", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-CHEM": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
     #"EU-CONSTRUCTION": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"}, #seems a typo 
     "EU-DIV50": {"code": "DO", "cycle": "MZ", "exchange": "EUREX"},
     "EU-DIV30": {"code": "AQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-OIL": {"code": "D9", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-DJ-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
+    "EU-DJ-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"}, # same as EU-TECH
     "EU-DJ-TELECOM": {"code": "J5", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-UTIL": {"code": "IE", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-HEALTH": {"code": "YS", "cycle": "HMUZ", "exchange": "EUREX"},
@@ -302,7 +302,7 @@ CONTRACT_MAP = {
     #'EU-BANKS2': {'code': 'FA', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, #same as EU-BANKS
     #'EU-DIV30-DVP': {'code': 'AQ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, # same as EU-DIV30
     #'EU-DJ-AUTO': {'code': 'S5', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'},  # same as EU-AUTO
-    'EU-DJ-BASIC': {'code': 'UJ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'EU-DJ-BASIC': {'code': 'UJ', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'},  # same as EU-BASIC
     'FTSE100-DIV': {'code': 'IB', 'exchange': 'ICE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'HSCEI-DIV': {'code': 'E$', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     #'INR-SGX': {'code': 'U-', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, # same as INR
