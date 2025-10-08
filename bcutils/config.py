@@ -29,7 +29,7 @@ CONTRACT_MAP = {
     "CHEESE": {"code": "BJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "CHF": {"code": "S6", "cycle": "HMUZ", "exchange": "CME"},
     "CHFJPY": {"code": "UP", "cycle": "HMUZ", "exchange": "CME"},
-    "CLP": {"code": "N5", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "CLP": {"code": "N0", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "CNH": {"code": "ZX", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "CNH-onshore": {"code": "ZP", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "COCOA_LDN": {"code": "CA", "cycle": "HKNUZ", "exchange": "ICE/EU/Com"},
@@ -38,6 +38,7 @@ CONTRACT_MAP = {
     "COPPER": {"code": "HG", "cycle": "FHJMNUVZ", "exchange": "COMEX"},
     "COPPER-micro": {"code": "QL", "cycle": "HKNUZ", "exchange": "COMEX"},
     "CORN": {"code": "ZC", "cycle": "HKNUZ", "exchange": "CBOT"},
+    "CORN-EURO": {"code": "XB", "cycle": "HMQX", "exchange": "EuronextCom"},
     "COTTON": {"code": "KG", "cycle": "HKNVZ", "exchange": "NYMEX"},
     "COTTON2": {"code": "CT", "cycle": "HKNVZ", "exchange": "ICE/US"},
     "CRUDE_ICE": {"code": "WI", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/EU/Com"},
@@ -77,18 +78,21 @@ CONTRACT_MAP = {
     "EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-BANKS": {"code": "FA", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-CHEM": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-CONSTRUCTION": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
+    "EU-CONSTRUCTION": {"code": "DMM", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DIV50": {"code": "DO", "cycle": "MZ", "exchange": "EUREX"},
     "EU-DIV30": {"code": "AQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-OIL": {"code": "D9", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-TELECOM": {"code": "J5", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-UTIL": {"code": "IE", "cycle": "HMUZ", "exchange": "EUREX"},
+    'EU-FOOD': {'code': 'DMN', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
+    'EU-HOUSE': {'code': 'DMU', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
     "EU-HEALTH": {"code": "YS", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-INSURE": {"code": "DML", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-MEDIA": {"code": "UQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-MID": {"code": "PG", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-REALESTATE": {"code": "M4", "cycle": "HMUZ", "exchange": "EUREX"},
+    'EU-RETAIL': {'code': 'DMT', 'exchange': 'EUREX', 'cycle': 'HMUZ'},
     "EU-OIL": {"code": "UH", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-TRAVEL": {"code": "J3", "cycle": "HMUZ", "exchange": "EUREX"},
@@ -154,6 +158,7 @@ CONTRACT_MAP = {
     "MUMMY": {"code": "S.", "cycle": "HMUZ", "exchange": "JPX"},
     "NASDAQ": {"code": "NQ", "cycle": "HMUZ", "exchange": "CME"},
     "NASDAQ_micro": {"code": "NM", "cycle": "HMUZ", "exchange": "CME"},
+    "NICKEL_LME": {"code": "Q0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"},
     "NIFTY": {"code": "NH", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "NIKKEI": {"code": "NY", "cycle": "HMUZ", "exchange": "CME"},
     "NIKKEI400": {"code": "OC", "cycle": "HMUZ", "exchange": "JPX"},
@@ -230,6 +235,16 @@ CONTRACT_MAP = {
     "WHEY": {"code": "DG", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "YENEUR": {"code": "RY", "cycle": "HMUZ", "exchange": "CME"},
     "ZAR": {"code": "T6", "cycle": "HMUZ", "exchange": "CME"},
+
+    #two more cryptos and their micros
+    "SOLANA": {"code": "SA", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "SOLANA_micro": {"code": "SR", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "XRP": {"code": "SJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "XRP_micro": {"code": "SX", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    
+    
+    
+
 }
 
 # source: https://www.barchart.com/solutions/data/futures

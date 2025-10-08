@@ -749,7 +749,7 @@ def _get_contract_month_year(contract):
 def _insufficient_data(session, symbol: str, res: Resolution):
     try:
         df = get_historical_prices_for_contract(session, symbol, res)
-        return len(df) < 30
+        return len(df) < 1
     except Exception:  # skipcq broad by design
         return True
 
@@ -913,15 +913,23 @@ def _get_exchange_for_code(session, contract_code: str):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
+    
+    login_obj=dict(
+        barchart_username="tang.eric.ht@gmail.com",
+        barchart_password="cdefgh12",
+    )
+    print(login_obj)  
     get_barchart_downloads(
-        create_bc_session(config_obj=_env()),
-        instr_list=["NZD"],
-        start_year=2023,
-        end_year=2024,
-        save_dir="/home/user/barchart_data",
+        create_bc_session(config_obj=login_obj),
+        #instr_list=["HEATOIL-ICE", "JGB", "TECDAX"],
+        instr_list=["SOLANA", "SOLANA_micro", "XRP", "XRP_micro"],
+        start_year=2025,
+        end_year=2026,
+        save_dir="/mnt/sda1/data/barchart2025",
         do_daily=True,
         dry_run=False,
     )
+
 
     # update_barchart_downloads(
     #     instr_code="FANG",
