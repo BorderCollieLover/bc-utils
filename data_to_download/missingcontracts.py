@@ -5,7 +5,26 @@
 #I will prioritize the downloading of these contracts:
 
 new_instruments = ["NICKEL_LME", "CADJPY", "FTSECHINAH", "HEATOIL-ICE", "JGB", "TECDAX"]
-new_crpptos = ["SOLANA", "SOLANA_micro", "XRP", "XRP_micro"] #I added these four new futures for cryptos. They are not yet in PST or IB as of 2025.10 
+new_crpptos = ["SOLANA", "SOLANA_micro", "XRP", "XRP_micro"] #I added these four new futures for cryptos. They are not yet in PST or IB as of 2025.10 NEW
+new_instruments2 = [
+    #"HIBOR",#202307,
+    "BARLEY", #202401 earliest data in existing PST database, as of 202510 
+    "COAL-RICH-BAY", #202307
+    "GBPINR", #202310
+    "GICS-EXCESS", #202307
+    "GOLD-CN-HK", #202307
+    "GOLD-HK", #202307
+    "HIGHYIELD", #202308
+    "IG",#202308
+    "IRON-HK",#202307
+    "JPYINR", #202311 
+    "LEAD_LME", #202312
+    'NIKKEI-SGX_mini',#202307
+    "SILVER-mini", #202312
+    "TIN_LME", #202309
+    "ZINC_LME" #202312
+]
+
 
 #2025-10 
 #Next I will download the missing contracts below. These are contracts that seem to be missing and give rise to'gaps' in the data. 

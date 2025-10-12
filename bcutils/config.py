@@ -119,8 +119,8 @@ CONTRACT_MAP = {
     "GBPJPY": {"code": "UR", "cycle": "HMUZ", "exchange": "CME"},
     "GICS": {"code": "GD", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "GILT": {"code": "G", "cycle": "HMUZ", "exchange": "ICE"},
-    "GOLD": {"code": "GC", "cycle": "GJMQVZ", "exchange": "COMEX"},
-    "GOLD_micro": {"code": "GR", "cycle": "GJMQVZ", "exchange": "COMEX"},
+    "GOLD": {"code": "GC", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"},
+    "GOLD_micro": {"code": "GR", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"},
     "HANG": {"code": "HS", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"},
     "HANGENT_mini": {"code": "IX", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"},
     "HANGTECH": {"code": "HI", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"},
@@ -184,7 +184,7 @@ CONTRACT_MAP = {
     "SGD_mini": {"code": "R$", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "SGX": {"code": "VS", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "SHATZ": {"code": "HF", "cycle": "HMUZ", "exchange": "EUREX"},
-    "SILVER": {"code": "SI", "cycle": "HKNUZ", "exchange": "COMEX"},
+    "SILVER": {"code": "SI", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"},
     "SMI": {"code": "SZ", "cycle": "HMUZ", "exchange": "EUREX"},
     "SMI-MID": {"code": "SH", "cycle": "HMUZ", "exchange": "EUREX"},
     "SOFR": {"code": "SQ", "cycle": "HMUZ", "days_count": 1100, "exchange": "CME"},
@@ -241,11 +241,99 @@ CONTRACT_MAP = {
     "SOLANA_micro": {"code": "SR", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "XRP": {"code": "SJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "XRP_micro": {"code": "SX", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
-    
-    
-    
 
+    "BARLEY": {"code": "KI", "cycle": "FHKNUX", "exchange": "SFE"}, #start from 2020 https://www.barchart.com/futures/quotes/KIX25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "CNH-HK": {"code": "KX", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2013 https://www.barchart.com/futures/quotes/KXV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "COAL-RICH-BAY": {"code": "LV", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/EU"}, #start from 2006 https://www.barchart.com/futures/quotes/LVN25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GBP_micro": {"code": "MB", "cycle": "HMUZ", "exchange": "CME"}, #start from 2009 https://www.barchart.com/futures/quotes/MBZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GBPINR": {"code": "MB", "cycle": "FGHJKMNQUVXZ", "exchange": "MCX"}, #start from 2010 https://www.barchart.com/futures/quotes/W4N25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GICS-EXCESS": {"code": "G7", "cycle": "HMUZ", "exchange": "CME"}, #start from 2014 https://www.barchart.com/futures/quotes/G7U24/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GOLD-CN-HK": {"code": "GJ", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2017 https://www.barchart.com/futures/quotes/GJV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GOLD-HK": {"code": "GU", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2017 https://www.barchart.com/futures/quotes/GUV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "HIBOR": {"code": "HB", "cycle": "HMUZ", "exchange": "HKFE"}, #start from 1992 https://www.barchart.com/futures/quotes/HBV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "HIGHYIELD": {"code": "OY", "cycle": "HMUZ", "exchange": "CFE"}, #
+    "IG": {"code": "OY", "cycle": "HMUZ", "exchange": "CFE"}, #start from 2021 https://www.barchart.com/futures/quotes/OGZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "IRON-HK": {"code": "CZ", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2018 https://www.barchart.com/futures/quotes/CZV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "JPYINR": {"code": "X5", "cycle": "FGHJKMNQUVXZ", "exchange": "MCX"}, #start from 2010 https://www.barchart.com/futures/quotes/X5V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "LEAD_LME": {"code": "R0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/R0V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    'NIKKEI-SGX_mini': {'code': 'HQ', 'exchange': 'SGX', 'cycle': 'HMUZ'},  #start from 2011  https://www.barchart.com/futures/quotes/HQV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "SILVER-mini": {"code": "QI", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"}, # start from 2006 https://www.barchart.com/futures/quotes/QIZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "TIN_LME": {"code": "S4", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/S4V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "ZINC_LME": {"code": "O0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/O0V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+
+    ##From 2024 config_old
+    'AUD_micro': {'code': 'MG', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'AUSCASH': {'code': 'IQ', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 'CORRA': {'code': 'RG', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'BITCOIN-LARGE': {'code': 'BT', 'cycle': 'FGHJKMNQUVXZ', 'exchange': 'CME'}, 
+    'CAD2': {'code': 'CH', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'CAD5': {'code': 'GM', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'CHINAA-CON': {'code': 'D1', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'COAL-GEORDIE': {'code': 'LQ', 'exchange': 'ICE/EU', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'COAL': {'code': 'LU', 'exchange': 'ICE/EU', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'COPPER_LME': {'code': 'O9', 'exchange': 'LME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'COPPER-mini': {'code': 'QC', 'exchange': 'COMEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'CORN_mini': {'code': 'XN', 'exchange': 'CBOT', 'days_count': 700, 'cycle': 'FGHJKMNQUVXZ'}, 
+    'CRUDE_W_micro': {'code': 'CY', 'exchange': 'NYMEX', 'days_count': 500, 'cycle': 'FGHJKMNQUVXZ'}, 
+    'CRUDE_W_mini': {'code': 'QM', 'exchange': 'NYMEX', "days_count": 500,'cycle': 'FGHJKMNQUVXZ'}, 
+    'EDOLLAR': {'code': 'GE', 'cycle': 'HMUZ', 'days_count': 1100, 'exchange': 'CME'}, 
+    'ETHANOL-CHICAGO': {'code': 'FL', 'cycle': 'FGHJKMNQUVXZ', 'exchange': 'NYMEX'}, 
+    'ETHER-MICRO': {'code': 'TA', 'cycle': 'FGHJKMNQUVXZ', 'exchange': 'CME'}, 
+    'EUR_mini': {'code': 'E7', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'EUR_micro': {'code': 'MF', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'FTSE100-DIV': {'code': 'IB', 'exchange': 'ICE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'GASOILINE_micro': {'code': 'FR', 'exchange': 'NYMEX', 'days_count': 900, 'cycle': 'FGHJKMNQUVXZ'}, 
+    'GOLD-mini': {'code': 'QO', 'exchange': 'COMEX', 'days_count': 800, 'cycle': 'FGHJKMNQUVXZ'}, 
+    'HANGENT': {'code': 'HA', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'HANG_mini': {'code': 'HK', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'HSCEI-DIV': {'code': 'E$', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'IBEX_mini': {'code': 'EZ', 'cycle': 'HMUZ', 'exchange': 'MEFF'}, 
+    'JPY_mini': {'code': 'J7', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MSCIEAFA': {'code': 'DI', 'exchange': 'ICE/US', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MSCIBRAZIL': {'code': 'F5', 'exchange': 'ICE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MSCICHINA': {'code': 'NA', 'exchange': 'EUREX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MSCIEM-LIFFE': {'code': 'DE', 'exchange': 'ICE/US', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'NIKKEI-JPY': {'code': 'NL', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'NIKKEI-SGX': {'code': 'NX', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'NIKKEI-SGX-DIV': {'code': 'HT', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'NIKKEI_large': {'code': 'NO', 'exchange': 'JPX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'SARONA': {'code': 'J2', 'cycle': 'HMUZ', 'days_count': 1100, 'exchange': 'ICE'}, 
+    'SONIA3-ICE': {'code': 'J8', 'cycle': 'HMUZ', 'days_count': 1100, 'exchange': 'ICE'}, 
+    'SOFR1': {'code': 'SL', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'SP500_mini': {'code': 'EY', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'SUGAR16': {'code': 'SD', 'exchange': 'ICE/US', 'days_count': 700, 'cycle': 'FGHJKMNQUVXZ'}, 
+    'THB': {'code': 'W.', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'TSE60': {'code': 'TP', 'exchange': 'TMX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'UMBS-50': {'code': 'BUT', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'US10Y_micro': {'code': 'TO', 'exchange': 'CBOT', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'USDCAD_micro': {'code': 'WK', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'USDCHF_micro': {'code': 'WN', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'USDCNH-CME': {'code': 'H5', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
+    #'USDCNH-HK': {'code': 'KX', 'exchange': 'HKFE', 'cycle': 'FGHJKMNQUVXZ'},  #USDCNH-HK is not on BarChart, but CNH-HK is. USDCNH-HK is CNH-HK's mini contract https://www.hkex.com.hk/Products/Listed-Derivatives/Foreign-Exchange/USD-CNH-Futures?sc_lang=en
+    'USDCNH-SGX_mini': {'code': 'I$', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'VIX_mini': {'code': 'VJ', 'exchange': 'CFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'WHEAT_mini': {'code': 'XW', 'exchange': 'CBOT', 'days_count': 500, 'cycle': 'FGHJKMNQUVXZ'}, 
+    
+    
+    'MT-CFFEX-30Y': {'code': 'U!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-10Y': {'code': 'O!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-5Y': {'code': 'P!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-2Y': {'code': 'T!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-SSE50': {'code': 'R!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-CSI300': {'code': 'S!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-CSI500': {'code': 'Q!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-CFFEX-CSI1000': {'code': 'W!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-TAIFEX-TWI': {'code': 'TW', 'exchange': 'TAIFEX', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-BMF-BOVESPA': {'code': 'XI', 'exchange': 'BM&F Bovespa', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-BMF-BOVESPA-MINI': {'code': 'UM', 'exchange': 'BM&F Bovespa', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-BMF-BRLUSD': {'code': 'XD', 'exchange': 'BM&F Bovespa', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-ASX-90D': {'code': 'IR', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-ASX-3Y': {'code': 'YT', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-ASX-10Y': {'code': 'YU', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-ASX-FIN-X-REIT': {'code': 'V6', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}, 
+    'MT-ASX-EASTERNWHEAT': {'code': 'X9', 'exchange': 'SFE', 'cycle': 'FGHJKMNQUVXZ'}
+    
 }
+
 
 # source: https://www.barchart.com/solutions/data/futures
 EXCHANGES = {
@@ -274,4 +362,14 @@ EXCHANGES = {
     "SFE": {"tick_date": "2019-11-03", "eod_date": "1980-01-02"},
     "SGX": {"tick_date": "2008-05-05", "eod_date": "1986-09-03"},
     "TMX": {"tick_date": "2010-04-05", "eod_date": "1993-04-22"},
+
+
+    #added 2025-10
+    "MCX": {"tick_date": "2010-01-01", "eod_date": "2010-01-01"},
+    'ICE/EU' : {"tick_date": "2008-05-04", "eod_date": "1978-08-07"},
+    'Euronext' : {"tick_date": "2011-05-25", "eod_date": "2001-09-17"},
+    'CFFEX': {"tick_date": "2030-01-01", "eod_date": "2015-12-14"}, #No tick data
+    'TAIFEX': {"tick_date": "2030-01-01", "eod_date": "1993-03-29"}, #No tick data
+    'BM&F Bovespa': {"tick_date": "2011-10-06", "eod_date": "2002-04-15"}, 
+
 }
