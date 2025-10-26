@@ -4,13 +4,12 @@
 #I have already added NICKEL_LME to config.py.
 #I will prioritize the downloading of these contracts:
 
-new_instruments = ["NICKEL_LME", "CADJPY", "FTSECHINAH", "HEATOIL-ICE", "JGB", "TECDAX"]
+new_instruments = ["NICKEL_LME", "CADJPY", "JGB", "TECDAX"]
 new_crpptos = ["SOLANA", "SOLANA_micro", "XRP", "XRP_micro"] #I added these four new futures for cryptos. They are not yet in PST or IB as of 2025.10 NEW
 new_instruments2 = [
-    #"HIBOR",#202307,
+    "HIBOR",#202307,
     "BARLEY", #202401 earliest data in existing PST database, as of 202510 
     "COAL-RICH-BAY", #202307
-    "GBPINR", #202310
     "GICS-EXCESS", #202307
     "GOLD-CN-HK", #202307
     "GOLD-HK", #202307
@@ -22,7 +21,9 @@ new_instruments2 = [
     'NIKKEI-SGX_mini',#202307
     "SILVER-mini", #202312
     "TIN_LME", #202309
-    "ZINC_LME" #202312
+    "ZINC_LME", #202312
+    "EU-BANKS2",
+    "CLP"
 ]
 
 
@@ -36,7 +37,8 @@ new_instruments2 = [
 
 #2025-10
 #The next step is to re-download data for the European equity sector indices, which I might have mistakenly classified as being duplicates of each other: the EU- set; and the EU-DJ set. All these should end at the end of 2023 as PST have been picking up data since 202309 for them. 
-EU_List1 = ["EU-AUTO","EU-BASIC","EU-BANKS","EU-CHEM","EU-CONSTRUCTION","EU-DIV50","EU-DIV30",'EU-FOOD', "EU-HEALTH",'EU-HOUSE', "EU-INSURE","EU-MEDIA","EU-MID","EU-REALESTATE","EU-OIL",'EU-RETAIL',"EU-TECH","EU-TRAVEL", "EU-UTILS", "EU-DJ-OIL","EU-DJ-TECH","EU-DJ-TELECOM","EU-DJ-UTIL"]
+EU_List1 = ["EU-AUTO","EU-BASIC","EU-BANKS","EU-CHEM","EU-CONSTRUCTION","EU-DIV50","EU-DIV30",'EU-FOOD', "EU-HEALTH",'EU-HOUSE', "EU-INSURE","EU-MEDIA","EU-MID","EU-REALESTATE","EU-OIL",'EU-RETAIL',"EU-TECH","EU-TRAVEL", 
+            "EU-UTILS", "EU-DJ-OIL","EU-DJ-TECH","EU-DJ-TELECOM","EU-DJ-UTIL", "EU-BANKS2", "EU-DJ-CHEM", "EU-TELECOM", "EUROSTX-MID"]
 #These don't have mappings to barchart codes yet: 
 EU_DJ_list = ["EU-DJ-CONSTRUCTION", "EU-DJ-FINANCE", "EU-DJ-FOOD", "EU-DJ-HOUSE", "EU-DJ-INDUSTRY", "EU-DJ-INSURE","EU-DJ-MEDIA", "EU-DJ-RETAIL", "EU-DJ-TRAVEL"]
 EU_List2 = ["EU-BANKS-DIV", "EU-ESG", "EU-FINANCE", "EU-TELECOM"]

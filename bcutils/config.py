@@ -29,7 +29,7 @@ CONTRACT_MAP = {
     "CHEESE": {"code": "BJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "CHF": {"code": "S6", "cycle": "HMUZ", "exchange": "CME"},
     "CHFJPY": {"code": "UP", "cycle": "HMUZ", "exchange": "CME"},
-    "CLP": {"code": "N0", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    
     "CNH": {"code": "ZX", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "CNH-onshore": {"code": "ZP", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "COCOA_LDN": {"code": "CA", "cycle": "HKNUZ", "exchange": "ICE/EU/Com"},
@@ -77,20 +77,20 @@ CONTRACT_MAP = {
     "EU-AUTO": {"code": "S5", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-BANKS": {"code": "FA", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-CHEM": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"},
+    
     "EU-CONSTRUCTION": {"code": "DMM", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DIV50": {"code": "DO", "cycle": "MZ", "exchange": "EUREX"},
     "EU-DIV30": {"code": "AQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-OIL": {"code": "D9", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-DJ-TELECOM": {"code": "J5", "cycle": "HMUZ", "exchange": "EUREX"},
+    
     "EU-DJ-UTIL": {"code": "IE", "cycle": "HMUZ", "exchange": "EUREX"},
     'EU-FOOD': {'code': 'DMN', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
     'EU-HOUSE': {'code': 'DMU', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
     "EU-HEALTH": {"code": "YS", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-INSURE": {"code": "DML", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-MEDIA": {"code": "UQ", "cycle": "HMUZ", "exchange": "EUREX"},
-    "EU-MID": {"code": "PG", "cycle": "HMUZ", "exchange": "EUREX"},
+    
     "EU-REALESTATE": {"code": "M4", "cycle": "HMUZ", "exchange": "EUREX"},
     'EU-RETAIL': {'code': 'DMT', 'exchange': 'EUREX', 'cycle': 'HMUZ'},
     "EU-OIL": {"code": "UH", "cycle": "HMUZ", "exchange": "EUREX"},
@@ -103,7 +103,7 @@ CONTRACT_MAP = {
     "FTSE100": {"code": "X", "cycle": "HMUZ", "exchange": "ICE"},
     "FTSE250": {"code": "Y", "cycle": "HMUZ", "exchange": "ICE"},
     "FTSECHINAA": {"code": "HN", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
-    "FTSECHINAH": {"code": "HA", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"},
+    
     "FTSETAIWAN": {"code": "T1", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "GAS-LAST": {"code": "HH", "cycle": "FGHJKMNQUVXZ", "exchange": "NYMEX"},
     "GAS_NL": {"code": "TG", "cycle": "FGHJKMNQUVXZ", "exchange": "ENDEX"},
@@ -158,7 +158,7 @@ CONTRACT_MAP = {
     "MUMMY": {"code": "S.", "cycle": "HMUZ", "exchange": "JPX"},
     "NASDAQ": {"code": "NQ", "cycle": "HMUZ", "exchange": "CME"},
     "NASDAQ_micro": {"code": "NM", "cycle": "HMUZ", "exchange": "CME"},
-    "NICKEL_LME": {"code": "Q0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"},
+    
     "NIFTY": {"code": "NH", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "NIKKEI": {"code": "NY", "cycle": "HMUZ", "exchange": "CME"},
     "NIKKEI400": {"code": "OC", "cycle": "HMUZ", "exchange": "JPX"},
@@ -242,24 +242,36 @@ CONTRACT_MAP = {
     "XRP": {"code": "SJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "XRP_micro": {"code": "SX", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
 
-    "BARLEY": {"code": "KI", "cycle": "FHKNUX", "exchange": "SFE"}, #start from 2020 https://www.barchart.com/futures/quotes/KIX25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    #new mappings or corrections 2025.10 
+    "BARLEY": {"code": "KI", "cycle": "FGHJKMNQUVXZ", "exchange": "SFE"}, #start from 2020 https://www.barchart.com/futures/quotes/KIX25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "CNH-HK": {"code": "KX", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2013 https://www.barchart.com/futures/quotes/KXV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "COAL-RICH-BAY": {"code": "LV", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/EU"}, #start from 2006 https://www.barchart.com/futures/quotes/LVN25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    "GBP_micro": {"code": "MB", "cycle": "HMUZ", "exchange": "CME"}, #start from 2009 https://www.barchart.com/futures/quotes/MBZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    "GBPINR": {"code": "MB", "cycle": "FGHJKMNQUVXZ", "exchange": "MCX"}, #start from 2010 https://www.barchart.com/futures/quotes/W4N25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    "GICS-EXCESS": {"code": "G7", "cycle": "HMUZ", "exchange": "CME"}, #start from 2014 https://www.barchart.com/futures/quotes/G7U24/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "GBP_micro": {"code": "MB", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"}, #start from 2009 https://www.barchart.com/futures/quotes/MBZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    #"GBPINR": {"code": "MB", "cycle": "FGHJKMNQUVXZ", "exchange": "MCX"}, #start from 2010 https://www.barchart.com/futures/quotes/W4N25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc But this is not the same as in PST GBPINR which is traded on NSE
+    "GICS-EXCESS": {"code": "G7", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"}, #start from 2014 https://www.barchart.com/futures/quotes/G7U24/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "GOLD-CN-HK": {"code": "GJ", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2017 https://www.barchart.com/futures/quotes/GJV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "GOLD-HK": {"code": "GU", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2017 https://www.barchart.com/futures/quotes/GUV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    "HIBOR": {"code": "HB", "cycle": "HMUZ", "exchange": "HKFE"}, #start from 1992 https://www.barchart.com/futures/quotes/HBV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    "HIGHYIELD": {"code": "OY", "cycle": "HMUZ", "exchange": "CFE"}, #
-    "IG": {"code": "OY", "cycle": "HMUZ", "exchange": "CFE"}, #start from 2021 https://www.barchart.com/futures/quotes/OGZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "HIBOR": {"code": "HB", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 1992 https://www.barchart.com/futures/quotes/HBV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "HIGHYIELD": {"code": "OY", "cycle": "FGHJKMNQUVXZ", "exchange": "CFE"}, #
+    "IG": {"code": "OG", "cycle": "FGHJKMNQUVXZ", "exchange": "CFE"}, #start from 2021 https://www.barchart.com/futures/quotes/OGZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "IRON-HK": {"code": "CZ", "cycle": "FGHJKMNQUVXZ", "exchange": "HKFE"}, #start from 2018 https://www.barchart.com/futures/quotes/CZV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "JPYINR": {"code": "X5", "cycle": "FGHJKMNQUVXZ", "exchange": "MCX"}, #start from 2010 https://www.barchart.com/futures/quotes/X5V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "LEAD_LME": {"code": "R0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/R0V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
-    'NIKKEI-SGX_mini': {'code': 'HQ', 'exchange': 'SGX', 'cycle': 'HMUZ'},  #start from 2011  https://www.barchart.com/futures/quotes/HQV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    'NIKKEI-SGX_mini': {'code': 'HQ', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'},  #start from 2011  https://www.barchart.com/futures/quotes/HQV25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "SILVER-mini": {"code": "QI", "cycle": "FGHJKMNQUVXZ", "exchange": "COMEX"}, # start from 2006 https://www.barchart.com/futures/quotes/QIZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "TIN_LME": {"code": "S4", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/S4V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
     "ZINC_LME": {"code": "O0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"}, #start from 2011  https://www.barchart.com/futures/quotes/O0V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "FTSECHINAH": {"code": "T3", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},  #start from 2025,  Correct an earlier bc-utils error. It mapped FTSECHINAH to HA, which is the HANGENT futures. https://www.barchart.com/futures/quotes/T3V25/historical-prices?orderBy=contractExpirationDate&orderDir=asc
+    "CLP": {"code": "N0", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"}, # See notion notes on CLP, correct an earlier bc-utils error. https://www.barchart.com/futures/quotes/N0X25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "EU-BANKS2": {"code": "FB", "cycle": "FGHJKMNQUVXZ", "exchange": "EUREX"}, #start from 2005 https://www.barchart.com/futures/quotes/FBZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    "NICKEL_LME": {"code": "Q0", "cycle": "FGHJKMNQUVXZ", "exchange": "LME"},
+    "EU-CHEM": {"code": "DLS", "cycle": "HMUZ", "exchange": "EUREX"}, # correct an earlier bc-utils error https://www.barchart.com/futures/quotes/DLSZ25/futures-prices?viewName=main
+    "EU-DJ-CHEM": {"code": "C1", "cycle": "HMUZ", "exchange": "EUREX"}, # correct an earlier bc-utils error, this was mistaken for EU-DJ-CHEM earlier
+    "EU-TELECOM": {"code": "J5", "cycle": "HMUZ", "exchange": "EUREX"}, #correct an earlier bc-utils error, this was mistaken for EU-DJ-TELECOM
+    "EU-DJ-TELECOM": {"code": "L9", "cycle": "HMUZ", "exchange": "EUREX"}, #correct an earlier bc-utils error, this is the true EU-DJ-TELECOM
+    "EUROSTX-MID": {"code": "PG", "cycle": "HMUZ", "exchange": "EUREX"}, #correct an earlier bc-utils error, this was mistaken as EU-MID
+    "EU-MID": {"code": "FM", "cycle": "HMUZ", "exchange": "EUREX"}, #correct an earlier bc-utils error, this is EU-MID
+    
 
     ##From 2024 config_old
     'AUD_micro': {'code': 'MG', 'exchange': 'CME', 'cycle': 'FGHJKMNQUVXZ'}, 
@@ -312,6 +324,7 @@ CONTRACT_MAP = {
     'USDCNH-SGX_mini': {'code': 'I$', 'exchange': 'SGX', 'cycle': 'FGHJKMNQUVXZ'}, 
     'VIX_mini': {'code': 'VJ', 'exchange': 'CFE', 'cycle': 'FGHJKMNQUVXZ'}, 
     'WHEAT_mini': {'code': 'XW', 'exchange': 'CBOT', 'days_count': 500, 'cycle': 'FGHJKMNQUVXZ'}, 
+    
     
     
     'MT-CFFEX-30Y': {'code': 'U!', 'exchange': 'CFFEX', 'cycle': 'FGHJKMNQUVXZ'}, 

@@ -165,7 +165,7 @@ def build_download_code_list(resolution=Resolution.Day):
 
 
     start_year = 1985
-    end_year = 2023
+    end_year = 2026
     for instr in new_instruments:
         contract_dt_list = from_year_range_to_contract_dt_list(instr, start_year=start_year, end_year=end_year)
         if contract_dt_list:
@@ -185,8 +185,8 @@ def build_download_code_list(resolution=Resolution.Day):
             download_list += futures_codes
 
     download_list = [] # previous ones have already been downloaded, saving time 
-    start_year = 2009
-    end_year = 2024
+    start_year =1992
+    end_year = 2026
     print(new_instruments2)
     for instr in new_instruments2:
         contract_dt_list = from_year_range_to_contract_dt_list(instr, start_year=start_year, end_year=end_year)
@@ -195,9 +195,9 @@ def build_download_code_list(resolution=Resolution.Day):
             if instr_download_list: 
                 download_list += instr_download_list
     
-
+    download_list = [] # previous ones have already been downloaded, saving time 
     start_year = 2000
-    end_year = 2024
+    end_year = 2026
     for instr in EU_Sector_Indices:
         contract_dt_list = from_year_range_to_contract_dt_list(instr, start_year=start_year, end_year=end_year)
         if contract_dt_list:
@@ -234,6 +234,21 @@ if __name__ == "__main__":
     login_obj=dict(
         barchart_username="tang.eric.ht@gmail.com",
         barchart_password="cdefgh12",
+    )
+    get_barchart_downloads(
+        create_bc_session(config_obj=login_obj),
+        #instr_list=["HEATOIL-ICE", "JGB", "TECDAX"],
+        #instr_list=["SOLANA", "SOLANA_micro", "XRP", "XRP_micro"],
+        contract_list = day_codes_list,
+        #start_year=2025,
+        #end_year=2026,
+        save_dir="/mnt/sda1/data/barchart2025",
+        do_daily=True,
+        dry_run=False,
+    )
+    login_obj=dict(
+        barchart_username="eric.ht.tang@gmail.com",
+        barchart_password="CDEFGH12",
     )
     print(login_obj)  
     get_barchart_downloads(
