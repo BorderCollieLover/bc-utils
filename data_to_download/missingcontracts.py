@@ -44,6 +44,9 @@ EU_DJ_list = ["EU-DJ-CONSTRUCTION", "EU-DJ-FINANCE", "EU-DJ-FOOD", "EU-DJ-HOUSE"
 EU_List2 = ["EU-BANKS-DIV", "EU-ESG", "EU-FINANCE", "EU-TELECOM"]
 EU_Sector_Indices = EU_List1 + EU_DJ_list + EU_List2
 
+#New instruments from bug-or-feature fixes:
+new_instruments3 = ["GASOILINE_ICE","INR",  "MSCIEMASIA", "INR-SGX"]
+
 missingcontracts = {
 'AMX': ['20231000','20231100'],
 'ASX': ['20241000','20241100','20250100','20250200','20250400','20250500','20250700','20250800'],

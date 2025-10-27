@@ -5,7 +5,7 @@ from sample.pst import load_config
 from bcutils.config import CONTRACT_MAP
 from bcutils.bc_utils import Resolution
 from bcutils.bc_utils import get_barchart_downloads, create_bc_session
-from data_to_download.missingcontracts import missingcontracts, new_instruments , EU_Sector_Indices, new_instruments2
+from data_to_download.missingcontracts import missingcontracts, new_instruments , EU_Sector_Indices, new_instruments2, new_instruments3
 
 
 
@@ -202,6 +202,16 @@ def build_download_code_list(resolution=Resolution.Day):
         contract_dt_list = from_year_range_to_contract_dt_list(instr, start_year=start_year, end_year=end_year)
         if contract_dt_list:
             instr_download_list = from_contract_dt_list_to_futures_codes(instr, contract_dt_list=contract_dt_list, resolution=resolution)
+            if instr_download_list: 
+                download_list += instr_download_list
+
+    download_list = []
+    start_year = 2000
+    end_year = 2025
+    for instr in new_instruments3:
+        contract_dt_list = from_year_range_to_contract_dt_list(instr, start_year=start_year, end_year=end_year)
+        if contract_dt_list:
+            instr_download_list = from_contract_dt_list_to_futures_codes(instr, contract_dt_list=contract_dt_list, resolution= resolution)
             if instr_download_list: 
                 download_list += instr_download_list
 

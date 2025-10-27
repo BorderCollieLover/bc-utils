@@ -29,7 +29,6 @@ CONTRACT_MAP = {
     "CHEESE": {"code": "BJ", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "CHF": {"code": "S6", "cycle": "HMUZ", "exchange": "CME"},
     "CHFJPY": {"code": "UP", "cycle": "HMUZ", "exchange": "CME"},
-    
     "CNH": {"code": "ZX", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "CNH-onshore": {"code": "ZP", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/SG"},
     "COCOA_LDN": {"code": "CA", "cycle": "HKNUZ", "exchange": "ICE/EU/Com"},
@@ -77,20 +76,17 @@ CONTRACT_MAP = {
     "EU-AUTO": {"code": "S5", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-BASIC": {"code": "UJ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-BANKS": {"code": "FA", "cycle": "HMUZ", "exchange": "EUREX"},
-    
     "EU-CONSTRUCTION": {"code": "DMM", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DIV50": {"code": "DO", "cycle": "MZ", "exchange": "EUREX"},
     "EU-DIV30": {"code": "AQ", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-OIL": {"code": "D9", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-DJ-TECH": {"code": "UO", "cycle": "HMUZ", "exchange": "EUREX"},
-    
     "EU-DJ-UTIL": {"code": "IE", "cycle": "HMUZ", "exchange": "EUREX"},
     'EU-FOOD': {'code': 'DMN', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
     'EU-HOUSE': {'code': 'DMU', 'exchange': 'EUREX', 'cycle': 'HMUZ'}, 
     "EU-HEALTH": {"code": "YS", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-INSURE": {"code": "DML", "cycle": "HMUZ", "exchange": "EUREX"},
     "EU-MEDIA": {"code": "UQ", "cycle": "HMUZ", "exchange": "EUREX"},
-    
     "EU-REALESTATE": {"code": "M4", "cycle": "HMUZ", "exchange": "EUREX"},
     'EU-RETAIL': {'code': 'DMT', 'exchange': 'EUREX', 'cycle': 'HMUZ'},
     "EU-OIL": {"code": "UH", "cycle": "HMUZ", "exchange": "EUREX"},
@@ -102,8 +98,7 @@ CONTRACT_MAP = {
     "FEEDCOW": {"code": "GF", "cycle": "FHJKQUVX", "exchange": "CME"},
     "FTSE100": {"code": "X", "cycle": "HMUZ", "exchange": "ICE"},
     "FTSE250": {"code": "Y", "cycle": "HMUZ", "exchange": "ICE"},
-    "FTSECHINAA": {"code": "HN", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
-    
+    "FTSECHINAA": {"code": "HN", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},    
     "FTSETAIWAN": {"code": "T1", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "GAS-LAST": {"code": "HH", "cycle": "FGHJKMNQUVXZ", "exchange": "NYMEX"},
     "GAS_NL": {"code": "TG", "cycle": "FGHJKMNQUVXZ", "exchange": "ENDEX"},
@@ -129,7 +124,7 @@ CONTRACT_MAP = {
     "HOUSE-US": {"code": "I6", "cycle": "FKQX", "exchange": "CME"},
     "IBEX": {"code": "EF", "cycle": "HMUZ", "exchange": "MEFF"},
     "IRON": {"code": "C0", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
-    "INR": {"code": "U-", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
+    #"INR": {"code": "U-", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "IRS": {"code": "WY", "cycle": "HMUZ", "exchange": "CME"},
     "JGB": {"code": "TJ", "cycle": "HMUZ", "exchange": "JPX"},
     "JGB-SGX-mini": {"code": "JX", "cycle": "HMUZ", "exchange": "SGX"},
@@ -141,7 +136,7 @@ CONTRACT_MAP = {
     "LIVECOW": {"code": "LE", "cycle": "GJMQVZ", "exchange": "CME"},
     "LUMBER-new": {"code": "LB", "cycle": "FHKNUX", "exchange": "CME"},
     # Replace MSCIASIA with EUREX symbol if available to match pysystemtrade
-    "MSCIASIA": {"code": "L5", "cycle": "HMUZ", "exchange": "ICE/US"},
+    #"MSCIASIA": {"code": "L5", "cycle": "HMUZ", "exchange": "ICE/US"},
     "MSCISING": {"code": "SV", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "MID-DAX": {"code": "DM", "cycle": "HMUZ", "exchange": "EUREX"},
     "MILK": {"code": "DL", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
@@ -158,7 +153,6 @@ CONTRACT_MAP = {
     "MUMMY": {"code": "S.", "cycle": "HMUZ", "exchange": "JPX"},
     "NASDAQ": {"code": "NQ", "cycle": "HMUZ", "exchange": "CME"},
     "NASDAQ_micro": {"code": "NM", "cycle": "HMUZ", "exchange": "CME"},
-    
     "NIFTY": {"code": "NH", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"},
     "NIKKEI": {"code": "NY", "cycle": "HMUZ", "exchange": "CME"},
     "NIKKEI400": {"code": "OC", "cycle": "HMUZ", "exchange": "JPX"},
@@ -235,6 +229,20 @@ CONTRACT_MAP = {
     "WHEY": {"code": "DG", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
     "YENEUR": {"code": "RY", "cycle": "HMUZ", "exchange": "CME"},
     "ZAR": {"code": "T6", "cycle": "HMUZ", "exchange": "CME"},
+
+
+    #New mappings added by bug-or-feature, after I added and downloaded the mappings below: 
+    #The PST parquet database seems to have been cleaned. What can be done is to download the historical data for the following four: GASOILINE_ICE, MSCIEMASIA, INR and ING-SGX and add them to the parquet database. 
+    "GASOILINE_ICE": {"code": "LG", "cycle": "FGHJKMNQUVXZ", "exchange": "ICE/EU/Com"},  #note use GASOILINE_ICE to be consistent with PST  start from 2006 https://www.barchart.com/futures/quotes/LGZ25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+    #- "MSCIASIA": {"code": "L5", "cycle": "HMUZ", "exchange": "ICE/US"}, #bug-or-feature correction
+    #+ "MSCIEMASIA": {"code": "L5", "cycle": "M", "days_count": 1000, "exchange": "ICE/US"},
+    "MSCIEMASIA": {"code": "L5", "cycle": "HMUZ", "days_count": 1000, "exchange": "ICE/US"}, #start from 2013, https://www.barchart.com/futures/quotes/L5Z25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+
+    #- "INR": {"code": "U-", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"}, #bug-of-feature correction
+    #+ "INR": {"code": "H3", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},
+    "INR-SGX": {"code": "U-", "cycle": "FGHJKMNQUVXZ", "exchange": "SGX"}, 
+    "INR": {"code": "H3", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"}, #start from 2013 https://www.barchart.com/futures/quotes/H3V25/historical-prices?viewName=main&orderBy=contractExpirationDate&orderDir=asc
+
 
     #two more cryptos and their micros
     "SOLANA": {"code": "SA", "cycle": "FGHJKMNQUVXZ", "exchange": "CME"},

@@ -115894,3 +115894,1034 @@ Instrument EU-ESG not found in contract map.
 Instrument EU-FINANCE not found in contract map.
 2061
 {'barchart_username': 'eric.ht.tang@gmail.com', 'barchart_password': 'CDEFGH12'}
+INFO:bcutils.bc_utils:GET https://www.barchart.com/login, status: 200, CSRF token: KFZlYvyO5voleOLtUEvJdh5qIpJYkxDA9AjlNhwD
+INFO:bcutils.bc_utils:POST https://www.barchart.com/login, status: 200
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF00, 200, ratelimit 59
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF00 starting 1998-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG00, 200, ratelimit 58
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG00 starting 1999-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH00, 200, ratelimit 57
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH00 starting 1999-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ00, 200, ratelimit 56
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ00 starting 1999-03-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK00, 200, ratelimit 55
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK00 starting 1999-04-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM00, 200, ratelimit 54
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM00 starting 1999-05-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN00, 200, ratelimit 53
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN00 starting 1999-06-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ00, 200, ratelimit 52
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ00 starting 1999-07-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU00, 200, ratelimit 51
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU00 starting 1999-08-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV00, 200, ratelimit 50
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV00 starting 1999-09-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX00, 200, ratelimit 49
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX00 starting 1999-10-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ00, 200, ratelimit 48
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ00 starting 1999-11-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF01, 200, ratelimit 47
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF01 starting 1999-12-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG01, 200, ratelimit 46
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG01 starting 2000-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH01, 200, ratelimit 45
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH01 starting 2000-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ01, 200, ratelimit 44
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ01 starting 2000-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK01, 200, ratelimit 43
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK01 starting 2000-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM01, 200, ratelimit 42
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM01 starting 2000-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN01, 200, ratelimit 41
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN01 starting 2000-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ01, 200, ratelimit 40
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ01 starting 2000-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU01, 200, ratelimit 39
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU01 starting 2000-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV01, 200, ratelimit 38
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV01 starting 2000-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX01, 200, ratelimit 37
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX01 starting 2000-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ01, 200, ratelimit 36
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ01 starting 2000-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF02, 200, ratelimit 35
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF02 starting 2000-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG02, 200, ratelimit 34
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG02 starting 2001-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH02, 200, ratelimit 33
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH02 starting 2001-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ02, 200, ratelimit 32
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ02 starting 2001-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK02, 200, ratelimit 31
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK02 starting 2001-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM02, 200, ratelimit 30
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM02 starting 2001-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN02, 200, ratelimit 29
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN02 starting 2001-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ02, 200, ratelimit 28
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ02 starting 2001-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU02, 200, ratelimit 27
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU02 starting 2001-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV02, 200, ratelimit 26
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV02 starting 2001-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX02, 200, ratelimit 25
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX02 starting 2001-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ02, 200, ratelimit 24
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ02 starting 2001-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF03, 200, ratelimit 23
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF03 starting 2001-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG03, 200, ratelimit 22
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG03 starting 2002-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH03, 200, ratelimit 21
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH03 starting 2002-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ03, 200, ratelimit 20
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ03 starting 2002-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK03, 200, ratelimit 19
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK03 starting 2002-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM03, 200, ratelimit 18
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM03 starting 2002-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN03, 200, ratelimit 17
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN03 starting 2002-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ03, 200, ratelimit 16
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ03 starting 2002-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU03, 200, ratelimit 15
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU03 starting 2002-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV03, 200, ratelimit 59
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV03 starting 2002-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX03, 200, ratelimit 58
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX03 starting 2002-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ03, 200, ratelimit 57
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ03 starting 2002-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF04, 200, ratelimit 56
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF04 starting 2002-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG04, 200, ratelimit 55
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG04 starting 2003-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH04, 200, ratelimit 54
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH04 starting 2003-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ04, 200, ratelimit 53
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ04 starting 2003-03-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK04, 200, ratelimit 52
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK04 starting 2003-04-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM04, 200, ratelimit 51
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM04 starting 2003-05-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN04, 200, ratelimit 50
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN04 starting 2003-06-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ04, 200, ratelimit 49
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ04 starting 2003-07-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU04, 200, ratelimit 48
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU04 starting 2003-08-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV04, 200, ratelimit 47
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV04 starting 2003-09-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX04, 200, ratelimit 46
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX04 starting 2003-10-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ04, 200, ratelimit 45
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ04 starting 2003-11-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF05, 200, ratelimit 44
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF05 starting 2003-12-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG05, 200, ratelimit 43
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG05 starting 2004-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH05, 200, ratelimit 42
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH05 starting 2004-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ05, 200, ratelimit 41
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ05 starting 2004-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK05, 200, ratelimit 40
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK05 starting 2004-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM05, 200, ratelimit 39
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM05 starting 2004-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN05, 200, ratelimit 38
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN05 starting 2004-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ05, 200, ratelimit 37
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ05 starting 2004-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU05, 200, ratelimit 36
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU05 starting 2004-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV05, 200, ratelimit 35
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV05 starting 2004-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX05, 200, ratelimit 34
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX05 starting 2004-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ05, 200, ratelimit 33
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ05 starting 2004-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF06, 200, ratelimit 32
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF06 starting 2004-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG06, 200, ratelimit 31
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG06 starting 2005-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH06, 200, ratelimit 30
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH06 starting 2005-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ06, 200, ratelimit 29
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ06 starting 2005-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK06, 200, ratelimit 28
+INFO:bcutils.bc_utils:getting historic daily prices for contract 'LGK06', from 2005-04-26 to 2006-05-31
+INFO:bcutils.bc_utils:GET https://www.barchart.com/futures/quotes/LGK06/historical-download, status 200
+INFO:bcutils.bc_utils:POST https://www.barchart.com/my/download, status: 200, allowance success: True, allowance count: 1
+INFO:bcutils.bc_utils:POST https://www.barchart.com/my/download, status: 200, data length: 284
+INFO:bcutils.bc_utils:writing to: /mnt/sda1/data/barchart2025/Day_GASOILINE_ICE_20060500.csv
+INFO:bcutils.bc_utils:Finished getting Barchart historic daily prices for LGK06
+
+INFO:bcutils.bc_utils:hourly prices for LGK06 starting 2005-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM06, 200, ratelimit 27
+INFO:bcutils.bc_utils:getting historic daily prices for contract 'LGM06', from 2005-05-26 to 2006-06-30
+INFO:bcutils.bc_utils:GET https://www.barchart.com/futures/quotes/LGM06/historical-download, status 200
+INFO:bcutils.bc_utils:Max daily download reached, aborting
+INFO:bcutils.bc_utils:GET https://www.barchart.com/logout, status: 200
+INFO:bcutils.bc_utils:GET https://www.barchart.com/login, status: 200, CSRF token: jG8N7DpazNkM9K4Zi6F9NkPOMYjrG8EAKFVBp16L
+INFO:bcutils.bc_utils:POST https://www.barchart.com/login, status: 200
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF00, 200, ratelimit 26
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF00 starting 1998-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG00, 200, ratelimit 25
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG00 starting 1999-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH00, 200, ratelimit 24
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH00 starting 1999-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ00, 200, ratelimit 23
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ00 starting 1999-03-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK00, 200, ratelimit 22
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK00 starting 1999-04-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM00, 200, ratelimit 21
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM00 starting 1999-05-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN00, 200, ratelimit 20
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN00 starting 1999-06-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ00, 200, ratelimit 19
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ00 starting 1999-07-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU00, 200, ratelimit 59
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU00 starting 1999-08-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV00, 200, ratelimit 58
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV00 starting 1999-09-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX00, 200, ratelimit 57
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX00 starting 1999-10-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ00, 200, ratelimit 56
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ00' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ00 starting 1999-11-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF01, 200, ratelimit 55
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF01 starting 1999-12-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG01, 200, ratelimit 54
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG01 starting 2000-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH01, 200, ratelimit 53
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH01 starting 2000-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ01, 200, ratelimit 52
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ01 starting 2000-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK01, 200, ratelimit 51
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK01 starting 2000-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM01, 200, ratelimit 50
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM01 starting 2000-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN01, 200, ratelimit 49
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN01 starting 2000-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ01, 200, ratelimit 48
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ01 starting 2000-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU01, 200, ratelimit 47
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU01 starting 2000-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV01, 200, ratelimit 46
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV01 starting 2000-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX01, 200, ratelimit 45
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX01 starting 2000-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ01, 200, ratelimit 44
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ01' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ01 starting 2000-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF02, 200, ratelimit 43
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF02 starting 2000-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG02, 200, ratelimit 42
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG02 starting 2001-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH02, 200, ratelimit 41
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH02 starting 2001-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ02, 200, ratelimit 40
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ02 starting 2001-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK02, 200, ratelimit 39
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK02 starting 2001-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM02, 200, ratelimit 38
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM02 starting 2001-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN02, 200, ratelimit 37
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN02 starting 2001-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ02, 200, ratelimit 36
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ02 starting 2001-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU02, 200, ratelimit 35
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU02 starting 2001-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV02, 200, ratelimit 34
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV02 starting 2001-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX02, 200, ratelimit 33
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX02 starting 2001-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ02, 200, ratelimit 32
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ02' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ02 starting 2001-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF03, 200, ratelimit 31
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF03 starting 2001-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG03, 200, ratelimit 30
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG03 starting 2002-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH03, 200, ratelimit 29
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH03 starting 2002-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ03, 200, ratelimit 28
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ03 starting 2002-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK03, 200, ratelimit 27
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK03 starting 2002-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM03, 200, ratelimit 26
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM03 starting 2002-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN03, 200, ratelimit 25
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN03 starting 2002-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ03, 200, ratelimit 24
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ03 starting 2002-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU03, 200, ratelimit 23
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU03 starting 2002-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV03, 200, ratelimit 22
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV03 starting 2002-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX03, 200, ratelimit 21
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX03 starting 2002-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ03, 200, ratelimit 20
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ03' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ03 starting 2002-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF04, 200, ratelimit 19
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF04 starting 2002-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG04, 200, ratelimit 18
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG04 starting 2003-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH04, 200, ratelimit 17
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH04 starting 2003-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ04, 200, ratelimit 16
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ04 starting 2003-03-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK04, 200, ratelimit 15
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK04 starting 2003-04-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM04, 200, ratelimit 59
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM04 starting 2003-05-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN04, 200, ratelimit 58
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN04 starting 2003-06-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ04, 200, ratelimit 57
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ04 starting 2003-07-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU04, 200, ratelimit 56
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU04 starting 2003-08-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV04, 200, ratelimit 55
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV04 starting 2003-09-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX04, 200, ratelimit 54
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX04 starting 2003-10-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ04, 200, ratelimit 53
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ04' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ04 starting 2003-11-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF05, 200, ratelimit 52
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF05 starting 2003-12-28 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG05, 200, ratelimit 51
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG05 starting 2004-01-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH05, 200, ratelimit 50
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH05 starting 2004-02-25 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ05, 200, ratelimit 49
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ05 starting 2004-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGK05, 200, ratelimit 48
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGK05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK05 starting 2004-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM05, 200, ratelimit 47
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGM05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGM05 starting 2004-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN05, 200, ratelimit 46
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGN05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGN05 starting 2004-06-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGQ05, 200, ratelimit 45
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGQ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGQ05 starting 2004-07-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGU05, 200, ratelimit 44
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGU05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGU05 starting 2004-08-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGV05, 200, ratelimit 43
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGV05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGV05 starting 2004-09-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGX05, 200, ratelimit 42
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGX05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGX05 starting 2004-10-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGZ05, 200, ratelimit 41
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGZ05' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGZ05 starting 2004-11-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGF06, 200, ratelimit 40
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGF06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGF06 starting 2004-12-27 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGG06, 200, ratelimit 39
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGG06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGG06 starting 2005-01-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGH06, 200, ratelimit 38
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGH06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGH06 starting 2005-02-24 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGJ06, 200, ratelimit 37
+ERROR:bcutils.bc_utils:Problem getting historical data: No columns to parse from file
+INFO:bcutils.bc_utils:Insufficient daily data for 'LGJ06' - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGJ06 starting 2005-03-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:daily data for contract 'LGK06' already downloaded (/mnt/sda1/data/barchart2025/Day_GASOILINE_ICE_20060500.csv) - skipping
+
+INFO:bcutils.bc_utils:hourly prices for LGK06 starting 2005-04-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGM06, 200, ratelimit 36
+INFO:bcutils.bc_utils:getting historic daily prices for contract 'LGM06', from 2005-05-26 to 2006-06-30
+INFO:bcutils.bc_utils:GET https://www.barchart.com/futures/quotes/LGM06/historical-download, status 200
+INFO:bcutils.bc_utils:POST https://www.barchart.com/my/download, status: 200, allowance success: True, allowance count: 1
+INFO:bcutils.bc_utils:POST https://www.barchart.com/my/download, status: 200, data length: 1137
+INFO:bcutils.bc_utils:writing to: /mnt/sda1/data/barchart2025/Day_GASOILINE_ICE_20060600.csv
+INFO:bcutils.bc_utils:Finished getting Barchart historic daily prices for LGM06
+
+INFO:bcutils.bc_utils:hourly prices for LGM06 starting 2005-05-26 is before configured tick date - skipping
+
+INFO:bcutils.bc_utils:GET https://www.barchart.com/proxies/timeseries/historical/queryeod.ashx LGN06, 200, ratelimit 35
+INFO:bcutils.bc_utils:getting historic daily prices for contract 'LGN06', from 2005-06-26 to 2006-07-31
+INFO:bcutils.bc_utils:GET https://www.barchart.com/futures/quotes/LGN06/historical-download, status 200
+INFO:bcutils.bc_utils:Max daily download reached, aborting
+INFO:bcutils.bc_utils:GET https://www.barchart.com/logout, status: 200
+Instrument AMX not found in CONTRACT_MAP, skipping
+Instrument ASX not found in CONTRACT_MAP, skipping
+Instrument AUD-SGX not found in CONTRACT_MAP, skipping
+Instrument AUDJPY-SGX not found in CONTRACT_MAP, skipping
+Instrument CETES not found in CONTRACT_MAP, skipping
+Instrument CHINA120 not found in CONTRACT_MAP, skipping
+Instrument EURMXP not found in CONTRACT_MAP, skipping
+Instrument FTSECHINAA-CSOP not found in CONTRACT_MAP, skipping
+Instrument FTSECHINAA-IS not found in CONTRACT_MAP, skipping
+Instrument GBPINR not found in CONTRACT_MAP, skipping
+Instrument HANGENT-GTR not found in CONTRACT_MAP, skipping
+Instrument HANGENT-NTR not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-AMS not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-LON not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-NY not found in CONTRACT_MAP, skipping
+Instrument INR-SGX1 not found in CONTRACT_MAP, skipping
+Instrument INR-SGX2 not found in CONTRACT_MAP, skipping
+Instrument IPC not found in CONTRACT_MAP, skipping
+Instrument JPY-SGX not found in CONTRACT_MAP, skipping
+Instrument JPY-SGX-TITAN not found in CONTRACT_MAP, skipping
+Instrument KRWJPY not found in CONTRACT_MAP, skipping
+Instrument MSCIEM not found in CONTRACT_MAP, skipping
+Instrument MSCIEUROPE not found in CONTRACT_MAP, skipping
+Instrument SING-REALESTATE not found in CONTRACT_MAP, skipping
+Instrument USDMXP not found in CONTRACT_MAP, skipping
+Instrument VHANG not found in CONTRACT_MAP, skipping
+['HIBOR', 'BARLEY', 'COAL-RICH-BAY', 'GICS-EXCESS', 'GOLD-CN-HK', 'GOLD-HK', 'HIGHYIELD', 'IG', 'IRON-HK', 'JPYINR', 'LEAD_LME', 'NIKKEI-SGX_mini', 'SILVER-mini', 'TIN_LME', 'ZINC_LME', 'EU-BANKS2', 'CLP']
+Instrument EU-DJ-CONSTRUCTION not found in contract map.
+Instrument EU-DJ-FINANCE not found in contract map.
+Instrument EU-DJ-FOOD not found in contract map.
+Instrument EU-DJ-HOUSE not found in contract map.
+Instrument EU-DJ-INDUSTRY not found in contract map.
+Instrument EU-DJ-INSURE not found in contract map.
+Instrument EU-DJ-MEDIA not found in contract map.
+Instrument EU-DJ-RETAIL not found in contract map.
+Instrument EU-DJ-TRAVEL not found in contract map.
+Instrument EU-BANKS-DIV not found in contract map.
+Instrument EU-ESG not found in contract map.
+Instrument EU-FINANCE not found in contract map.
+1000
+Instrument AMX not found in CONTRACT_MAP, skipping
+Instrument ASX not found in CONTRACT_MAP, skipping
+Instrument AUD-SGX not found in CONTRACT_MAP, skipping
+Instrument AUDJPY-SGX not found in CONTRACT_MAP, skipping
+Instrument CETES not found in CONTRACT_MAP, skipping
+Instrument CHINA120 not found in CONTRACT_MAP, skipping
+Instrument EURMXP not found in CONTRACT_MAP, skipping
+Instrument FTSECHINAA-CSOP not found in CONTRACT_MAP, skipping
+Instrument FTSECHINAA-IS not found in CONTRACT_MAP, skipping
+Instrument GBPINR not found in CONTRACT_MAP, skipping
+Instrument HANGENT-GTR not found in CONTRACT_MAP, skipping
+Instrument HANGENT-NTR not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-AMS not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-LON not found in CONTRACT_MAP, skipping
+Instrument HEAT-DEG-NY not found in CONTRACT_MAP, skipping
+Instrument INR-SGX1 not found in CONTRACT_MAP, skipping
+Instrument INR-SGX2 not found in CONTRACT_MAP, skipping
+Instrument IPC not found in CONTRACT_MAP, skipping
+Instrument JPY-SGX not found in CONTRACT_MAP, skipping
+Instrument JPY-SGX-TITAN not found in CONTRACT_MAP, skipping
+Instrument KRWJPY not found in CONTRACT_MAP, skipping
+Instrument MSCIEM not found in CONTRACT_MAP, skipping
+Instrument MSCIEUROPE not found in CONTRACT_MAP, skipping
+Instrument SING-REALESTATE not found in CONTRACT_MAP, skipping
+Instrument USDMXP not found in CONTRACT_MAP, skipping
+Instrument VHANG not found in CONTRACT_MAP, skipping
+['HIBOR', 'BARLEY', 'COAL-RICH-BAY', 'GICS-EXCESS', 'GOLD-CN-HK', 'GOLD-HK', 'HIGHYIELD', 'IG', 'IRON-HK', 'JPYINR', 'LEAD_LME', 'NIKKEI-SGX_mini', 'SILVER-mini', 'TIN_LME', 'ZINC_LME', 'EU-BANKS2', 'CLP']
+Instrument EU-DJ-CONSTRUCTION not found in contract map.
+Instrument EU-DJ-FINANCE not found in contract map.
+Instrument EU-DJ-FOOD not found in contract map.
+Instrument EU-DJ-HOUSE not found in contract map.
+Instrument EU-DJ-INDUSTRY not found in contract map.
+Instrument EU-DJ-INSURE not found in contract map.
+Instrument EU-DJ-MEDIA not found in contract map.
+Instrument EU-DJ-RETAIL not found in contract map.
+Instrument EU-DJ-TRAVEL not found in contract map.
+Instrument EU-BANKS-DIV not found in contract map.
+Instrument EU-ESG not found in contract map.
+Instrument EU-FINANCE not found in contract map.
+1000
+{'barchart_username': 'eric.ht.tang@gmail.com', 'barchart_password': 'CDEFGH12'}
